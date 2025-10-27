@@ -1,0 +1,39 @@
+*{
+padding: 0px;
+margin: 0px;
+background-color: none;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(92, 203, 231);
+    padding: 100px;
+    
+    
+    justify-items: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.container  form section .input-box input{
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+
+.submit{
+    text-align: center;
+    padding: 30px;
+}
+.submit .button{
+    padding: 12px;
+    border-color: black;
+    border-radius: 5px;
+}
+.submit .button:hover{
+    padding: 14px;
+    background-color: skyblue;
+}
